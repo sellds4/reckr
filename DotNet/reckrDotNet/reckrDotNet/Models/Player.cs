@@ -5,6 +5,7 @@ namespace reckrDotNet.Models
     public class Player
     {
         public int PlayerID { get; set; }
+        public string UserName { get; set; }
         public PlayerRating PlayerRating { get; set; }
 
         public virtual ICollection<Court> HomeCourts { get; set; }
