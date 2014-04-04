@@ -37,10 +37,10 @@ namespace reckrDotNet.Controllers
             return Ok(court);
         }
 
-        public IHttpActionResult AddCourt(Court data)
-        {
+        //public IHttpActionResult AddCourt(Court data)
+        //{
             // Validation?
             // Add Item to database
-        }
+        //s}
     }
 }
