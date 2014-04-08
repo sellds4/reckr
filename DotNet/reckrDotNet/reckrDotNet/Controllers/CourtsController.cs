@@ -8,7 +8,7 @@ namespace reckrDotNet.Controllers
 {
     public class CourtsController : ApiController
     {
-        Court[] courts = new Court[]
+        /*Court[] courts = new Court[]
         {
             new Court { CourtID = 1, Name = "Campbell Park", Address = { Street = "Gilman Ave. & E. Campbell Ave.", City = "Campbell", State = "CA", ZipCode = "95008" }, Coordinates = { Latitude = "37.2870889", Longitude = "-121.9396184" }, NumberOfCourts = 2, CourtType = "Outdoor", AvgPlayerRating = PlayerRating.AboveAverage, NumberOfPlayers = 0 },
             new Court { CourtID = 2, Name = "Houge Park", Address = { Street = "White Oaks Ave. & Twilight Dr.", City = "San Jose", State = "CA", ZipCode = "95124" }, Coordinates = { Latitude = "37.2563939", Longitude = "-121.9439586" }, NumberOfCourts = 1, CourtType = "Outdoor", AvgPlayerRating = PlayerRating.Poor, NumberOfPlayers = 0 },
@@ -37,10 +37,10 @@ namespace reckrDotNet.Controllers
             return Ok(court);
         }
 
-        //public IHttpActionResult AddCourt(Court data)
-        //{
+        public IHttpActionResult AddCourt(Court data)
+        {
             // Validation?
             // Add Item to database
-        //s}
+        }*/
     }
 }
